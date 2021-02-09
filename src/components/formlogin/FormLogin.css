@@ -1,0 +1,64 @@
+.wrapper-login{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5px;
+    width: 60%;
+    height: 100%;
+    grid-gap:5px;
+    position: relative;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+.wrapper-login form{
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-gap: 5px;
+    padding: 0px 10px;
+}
+.wrapper-login form legend{
+    text-align: center;
+    font-size: 34px;
+    color: var(--color-red-one);
+}
+
+.wrapper-login div{
+    width: 100%;
+    position: relative;
+}
+.wrapper-login input:not(input[type="button"]){
+    width: 100%;
+    padding: 0px 35px 0px 10px;
+    height: 50px;
+    outline: none;
+    border:2px solid var(--color-red-one);
+    border-radius: 20px;
+    color:var(--color-red-one);
+    font-weight: bolder;
+    font-size: 16px;
+}
+.wrapper-login input:not(input[type="button"])::placeholder{
+    font-size: 16px;
+}
+
+.wrapper-login input[type="button"]{
+    background-color: var(--color-red-one);
+    color:white;
+    outline: none;
+    max-height: 45px;
+    border-radius: 10px;
+    border-width: 0;
+}
+
+.wrapper-login a{
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-decoration: none;
+    font-size: 25px;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--color-red-one);
+}

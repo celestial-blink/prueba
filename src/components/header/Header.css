@@ -1,0 +1,13 @@
+.wrapper-header{
+    width: 100%;
+    min-height: 100px;
+    color:white;
+    grid-column: 1 / -1;
+}
+.wrapper-header h2{
+    background-color: var(--color-red-one);
+    padding: 20px 10px;
+}
+.wrapper-header h2 span{
+    color: #0099e5;
+}
