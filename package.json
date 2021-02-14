@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack serve ./src/app.js"
+    "dev": "webpack serve --mode=development ./src/app.js",
+    "build": "webpack --mode=production ./src/app.js"
+
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "font-awesome": "^4.7.0",
+    "font-awesome": "4.7.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-router-dom": "5.2.0"

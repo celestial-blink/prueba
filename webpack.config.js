@@ -4,7 +4,6 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const webpack = require('webpack');
 
 module.exports = {
-    mode:"development",
     entry:'./src/app.js',
     output:{
         path:path.resolve(__dirname,'dist'),
@@ -52,7 +51,7 @@ module.exports = {
             filename:'./index.html'
         }),
         new MiniCssExtractPlugin({
-            filename:'assets/[name].css'
+            filename:'css/[name].css'
         })
     ],
     devServer:{
