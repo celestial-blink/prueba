@@ -16,16 +16,16 @@ const  Table = () => {
                 <span>column one</span>
             </div>
             <div className="table-rows">
-                <div className="row">
-                    <span contentEditable="true">row 1</span>
-                    <span contentEditable="true">row 2</span>
+                <div className="row" data-id="1">
+                    <span suppressContentEditableWarning contentEditable>row 1</span>
+                    <span>row 2</span>
                     <span>row 3</span>
                     <span>row 4</span>
                     <span>row 5</span>
                     <span>row 6</span>
                     <span>row 7</span>
                 </div>
-                <div className="row">
+                <div className="row" data-id="2">
                     <span>row 1</span>
                     <span>row 2</span>
                     <span>row 3</span>
@@ -34,7 +34,7 @@ const  Table = () => {
                     <span>row 6</span>
                     <span>row 7</span>
                 </div>
-                <div className="row">
+                <div className="row" data-id="3">
                     <span>row 1</span>
                     <span>row 2</span>
                     <span>row 3</span>
@@ -43,7 +43,7 @@ const  Table = () => {
                     <span>row 6</span>
                     <span>row 7</span>
                 </div>
-                <div className="row">
+                <div className="row" data-id="4">
                     <span>row 1</span>
                     <span>row 2</span>
                     <span>row 3</span>

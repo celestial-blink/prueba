@@ -44,7 +44,7 @@ const Dashboard = () =>{
         }
         right={
             <div className="wrapper-dashboard-content">
-                <div className="container-header">
+                {/* <div className="container-header">
                     <h4>organizaciones</h4>
                     <button>
                         nuevo
@@ -60,7 +60,7 @@ const Dashboard = () =>{
                 </div>
                 <div className="container-content">
                     <Table/>
-                </div>
+                </div> */}
             </div>
         }
         css={{"backgroundColor":"#ff4c4c"}}

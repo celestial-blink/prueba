@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: #ff4c4cdb;
+    background-color: transparent;
     position: relative;
     color:white;
     height: 100%;
@@ -85,19 +85,16 @@
 
 .wrapper-dashboard-content{
     background-color: white;
-    position: absolute;
-    height: 95%;
-    width: 95%;
+    position: relative;
     box-sizing: border-box;
     padding: 10px;
-    margin: auto;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
+    height: 95%;
+    width: 95%;
     border-radius: 15px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr;
+
 }
 .wrapper-dashboard-content .container-header{
     width: 100%;
@@ -152,7 +149,6 @@
     width: 100%;
     background-color: white;
     height: 100%;
-    overflow: scroll;
     border:2px solid #ff4c4cdb;
     border-width: 0 0 0 2px;
     position: relative;
