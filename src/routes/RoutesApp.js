@@ -3,6 +3,7 @@ import {BrowserRouter,Route,Switch} from 'react-router-dom';
 
 import Login from '../views/Login';
 import Dashboard from '../views/Dashboard';
+import TestConponent from '../views/TestComponent';
 
 const RoutesApp = () => {
     return (
@@ -10,6 +11,7 @@ const RoutesApp = () => {
             <Switch>
                 <Route exact path="/" component={Login}/>
                 <Route exact path="/dashboard" component={Dashboard} /> 
+                <Route exact path="/test" component={TestConponent} />
             </Switch>
         </BrowserRouter>
     );

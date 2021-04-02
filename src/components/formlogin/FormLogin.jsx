@@ -31,7 +31,7 @@ const FormLogin = () =>{
     return (
         <div className="wrapper-login">
             <form ref={formulario} action="login">
-                <legend>Menber join</legend>
+                <legend>Menber </legend>
                 <div>
                     <input type="text" name="username" placeholder="INGRESE NOMBRE DE USUARIO"/>
                 </div>

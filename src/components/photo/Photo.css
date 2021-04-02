@@ -1,0 +1,99 @@
+.wrapper-photo{
+    background-color: #fff;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    padding: 10px;
+    overflow: hidden;
+}
+.photo-header{
+    width: 100%;
+    position: relative;
+    height: 150px;
+    background-color: white;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 100px 1fr;
+}
+.photo-logo{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: -60px;
+    top: -65px;
+    background-color: #e4e4e4;
+    border-radius: 50%;
+}
+.photo-logo--img{
+    width: 70%;
+    height:70%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top:25%;
+    left:20%;
+    border-radius: 50%;
+}
+.photo-logo-link{
+    grid-column: 2;
+    grid-row: 2;   
+    width: 100%;
+    text-align: right;
+    text-decoration: none;
+    color:#414141;
+    font-size: 20px;
+}
+.photo-logo--title{
+    align-self: flex-end;
+    height: min-content;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 27px;
+    text-align: right;
+    color:red;
+}
+.photo-logo--title>span{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.photo__body{
+    height: 430px;
+    width: 100%;
+    background:linear-gradient(45deg ,#e6e6e6,#969696,#e6e6e6,#969696);
+    overflow: hidden;
+    padding: 5px;
+}
+.photo__body-columns{
+    background-color: white;
+    display: grid;
+    position: relative;
+    grid-template-columns: .5fr 1fr .4fr;
+    grid-template-rows: 1fr;
+    padding: 5px;
+    width: 100%;
+}
+.photo__body-columns>span{
+    background-color: red;
+    width:96%;
+    padding: 5px;
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+    height: min-content;
+}
+.photo__body-rows{
+    background-color: white;
+    position: relative;
+    height: 90.4%;
+}
+.photo__body--row{
+    display: grid;
+    grid-template-columns: .5fr 1fr .4fr;
+    height: min-content;
+    font-size: 13px;
+    border-bottom: 2px dotted red;
+    margin:0 10px;
+    padding:5px 0px;
+    text-align: left;
+}

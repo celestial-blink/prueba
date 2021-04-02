@@ -1,0 +1,123 @@
+.wrapper-graphic-map-two{
+    height: 600px;
+    width: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.graphic-map-two--header{
+    width: 100%;
+    height: 60px;
+    background-color: #002A3D;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.wrapper-graphic-two-header--title{
+    height: min-content;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    position: relative;
+}
+.wrapper-graphic-map-two__body{
+    display: grid;
+    width: 100%;
+    height: 500px;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+.wrapper-graphic-two-body--title{
+    grid-column: 1/-1;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24;
+    font-weight: 300;
+}
+.wrapper-graphic-two-body--title>span{
+    color:#002A3D;
+    font-size:26px;
+}
+
+.map-two__body--map{
+    border-right: 2px solid coral;
+    grid-column: 1;
+    grid-row: 2/span 2;
+    height: 95%;
+    width: 95%;
+    padding: 5px;
+    align-self: center;
+    justify-self: center;
+}
+.map-two__body-careers{
+    grid-column: 2;
+    grid-row: 2;
+    overflow: hidden;
+    columns: 60px 2;
+    color:#002A3D;
+}
+.map-two__body-entities{
+    grid-column: 2;
+    grid-row: 3;
+    columns: 60px 2;
+}
+.body-careers-item{
+    font-size: 12px;
+}
+.body-title{
+    column-span: all;
+    margin: 5px 0;
+}
+.map-two__body-message{
+    width: 100%;
+    grid-column: 1/-1;
+    grid-row: 4;
+    text-align: center;
+    color: #002A3D;
+}
+.map-two__body-message--link{
+    text-decoration: none;
+    color:coral;
+    font-weight: 500;
+}
+.map-two__footer{
+    height: 40px;
+    width: 100%;
+    position: relative;
+    border-top: 5px solid #002A3D;
+    display: flex;
+    justify-content: space-around;
+}
+.map-two__footer--link{
+    color:#002A3D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map-two__footer--link>a{
+    text-decoration: none;
+    font-size: 14px;
+    color:#002A3D;
+    margin-left: 5px;
+}
+.fa-facebook-square{
+    color:#3b5998;
+}
+.fa-instagram{
+    background:linear-gradient(45deg, #ffc838,#fb3958);
+    color:transparent;
+    -webkit-background-clip: text;
+    font-weight: 900;
+    -webkit-text-fill-color: transparent;
+}
+.fa-globe{
+    color:blue;
+}
